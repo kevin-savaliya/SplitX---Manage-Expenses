@@ -28,7 +28,7 @@ class NotificationService {
   }
 
   static String serverKey =
-      "AAAApQQyPQg:APA91bHaa4wUQ5yCSXyB7rmIMJtwqqqBiHdg8bf01_UDqp0a9794EMXUM9OXQ8LEI79w4pvRna-52ujOW3I5JEMoSP3xVd6wikwwpoOPWH055vIeHO4XURBaEnD8yynJQGB-L75mFRnv";
+      "Server Key";
 
   NotificationService._internal();
 
