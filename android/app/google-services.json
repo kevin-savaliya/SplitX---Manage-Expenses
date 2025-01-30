@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "628779767176",
+    "project_id": "split-expense-1cc10",
+    "storage_bucket": "split-expense-1cc10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628779767176:android:057243c004fa0e5a10963d",
+        "android_client_info": {
+          "package_name": "com.split.expense"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwSt5w230LF-tBOHoJ4ovSx5CM6-iLHe4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,82 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>NSUserNotificationsUsageDescription</key>
+        <string>Please allow notification permission for updates.</string>
+        <key>PermissionGroupNotification</key>
+        <string>Please allow notification permission for updates.</string>
+        <key>CADisableMinimumFrameDurationOnPhone</key>
+        <true/>
+        <key>CFBundleDevelopmentRegion</key>
+        <string>$(DEVELOPMENT_LANGUAGE)</string>
+        <key>CFBundleDisplayName</key>
+        <string>SplitX</string>
+        <key>CFBundleExecutable</key>
+        <string>$(EXECUTABLE_NAME)</string>
+        <key>NSUserTrackingUsageDescription</key>
+        <string>This identifier will be used to deliver personalized ads to you.</string>
+        <key>GADApplicationIdentifier</key>
+        <string>ca-app-pub-3940256099942544~1458002511</string>
+        <key>CFBundleIdentifier</key>
+        <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+        <key>CFBundleInfoDictionaryVersion</key>
+        <string>6.0</string>
+        <key>CFBundleName</key>
+        <string>SplitX</string>
+        <key>CFBundlePackageType</key>
+        <string>APPL</string>
+        <key>CFBundleShortVersionString</key>
+        <string>$(FLUTTER_BUILD_NAME)</string>
+        <key>CFBundleSignature</key>
+        <string>????</string>
+        <key>CFBundleURLName</key>
+        <string></string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+            <string>app-1-708740005128-ios-37ced1edc00aa3e7a000bd</string>
+        </array>
+        <key>CFBundleURLTypes</key>
+        <array>
+            <dict>
+                <key>CFBundleTypeRole</key>
+                <string>Editor</string>
+                <key>CFBundleURLSchemes</key>
+                <array>
+                    <string>app-1-708740005128-ios-37ced1edc00aa3e7a000bd</string>
+                </array>
+            </dict>
+        </array>
+        <key>CFBundleVersion</key>
+        <string>$(FLUTTER_BUILD_NUMBER)</string>
+        <key>LSRequiresIPhoneOS</key>
+        <true/>
+        <key>FirebaseDynamicLinksCustomDomains</key>
+        <array>
+            <string>https://splitx.page.link/</string>
+        </array>
+        <key>NSContactsUsageDescription</key>
+        <string>We need access to your contacts to show your friends in the app and allow you to add them to groups.</string>
+        <key>NSCameraUsageDescription</key>
+        <string>Upload profile picture to access the camera</string>
+        <key>NSPhotoLibraryUsageDescription</key>
+        <string>Required Photo Library for sharing photo to group and assign photo as a profile avtar.</string>
+        <key>UIApplicationSupportsIndirectInputEvents</key>
+        <true/>
+        <key>UIBackgroundModes</key>
+        <array>
+            <string>fetch</string>
+            <string>remote-notification</string>
+        </array>
+        <key>UILaunchStoryboardName</key>
+        <string>LaunchScreen</string>
+        <key>UIMainStoryboardFile</key>
+        <string>Main</string>
+        <key>UISupportedInterfaceOrientations</key>
+        <array>
+            <string>UIInterfaceOrientationPortrait</string>
+        </array>
+        <key>FLTEnableImpeller</key>
+        <true/>
+    </dict>
+</plist>
