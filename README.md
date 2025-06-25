@@ -1,33 +1,98 @@
-## SplitX -  Expense Management
-Split Expense Management is a Flutter app that simplifies shared expense management within groups, providing tools for tracking, splitting, and settling expenses, along with real-time communication and payment integration.
+# 💸 SplitX - Expense Management
 
-### Features
+SplitX is a Flutter-based mobile application designed to simplify group expense management. It helps users track, split, and settle expenses transparently while enabling real-time communication and seamless payment integrations.
 
-1. Group Creation
-   - Easily create groups and add members from contacts.
-   - Customize group name, profile picture, and estimated budget for seamless organization.
-   
-2. Real-Time Chat
-   - Each group has a dedicated chat for members to discuss expenses, plans, and updates.
-   - Facilitates coordination and transparent communication among group members.
-   
-3. Expense Management
-   - Add expenses with details such as the amount, description, payer, and date.
-   - Multiple expense-splitting options:
-   - Equally: Splits the total amount equally among members.
-   - By Amount: Assign specific amounts to each member.
-   - By Percentage: Split based on percentages of the total expense.
-   - Share-Wise: Allocate costs based on shares defined by members.
-   
-4. Expense Tracking
-   - Track all group expenses in one place.
-   - View detailed breakdowns of total expenses and individual contributions.
-   - Promotes transparency and accountability within the group.
-   
-5. Settlement of Debts
-   - Automatic calculation of each member’s outstanding balance.
-   - Seamless settlement of dues, ensuring accurate and timely debt resolution.
-   
-6. Payment Integration
-   - Integrated with secure payment gateways to allow convenient debt settlements.
-   - Supports popular payment methods for secure and hassle-free transactions.
+> 📱 Mobile App | 🧾 Real-Time Group Expenses | 💳 Payment Integration | 💬 Group Chat
+
+---
+
+## 📌 Features
+
+### 👥 Group Creation & Management
+- Easily create groups and add members from contacts.
+- Customize group name, profile picture, and estimated budget.
+
+### 💬 Real-Time Chat
+- Dedicated chat interface per group for communication and updates.
+
+### 🧾 Expense Management
+- Add expenses with details like amount, description, payer, and date.
+- Multiple splitting methods:
+  - Equally
+  - By Amount
+  - By Percentage
+  - Share-wise
+
+### 📊 Expense Tracking & Analytics
+- Track all group expenses with detailed breakdowns.
+- View each member’s contribution and outstanding balance.
+- Dashboard with real-time stats: Patients, Medicines, Prescriptions, and Today’s Activity.
+
+### 💵 Settlement & Payments
+- Automatically calculate dues for each member.
+- Integrated with Razorpay for secure and flexible payments.
+
+---
+
+## 🛠️ Technologies Used
+
+| Component       | Technology             |
+|----------------|------------------------|
+| Frontend        | Flutter Framework      |
+| Backend         | Firebase, Firebase Auth, Cloud Firestore |
+| Database        | Firebase Firestore, Firebase Storage |
+| Payment         | Razorpay Gateway       |
+| Tools           | Android Studio, VS Code |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Android Studio or Visual Studio Code
+- Flutter SDK installed
+- Firebase project setup
+
+### Run the Project
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+flutter pub get
+flutter run
+```
+
+> Make sure to add your `google-services.json` (for Android) or `GoogleService-Info.plist` (for iOS) from Firebase console.
+
+---
+
+## 📄 Documentation
+
+📥 [View Full Project Report](./Split%20Expense%20Management.pdf)
+
+This detailed documentation includes:
+- System Overview & Modules
+- DFD, ERD, Database Design
+- Testing Strategies
+- Future Enhancements
+
+---
+
+## 🔮 Future Enhancements
+
+- AI-powered smart splitting suggestions
+- Expense insights & reporting dashboard
+- OCR receipt scanning
+- Multi-currency support
+- Budget goals & reminders
+
+---
+
+## 👨‍💻 Author
+
+**Kevin Savaliya**  
+🔗 GitHub: [@kevin-savaliya](https://github.com/kevin-savaliya)
+
+---
+
+> ⭐ If you found this helpful, don't forget to star the repository!
